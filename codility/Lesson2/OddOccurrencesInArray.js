@@ -15,6 +15,8 @@ function solution(A) {
     }
 
     for (key in matchObj) {
+        // [2,2,2,2,3,3,3]
+        // 위와 같은 경우도 있을 수 있으므로 % 2 == 1 로 비교
         if (matchObj[key] % 2 == 1) {
             return parseInt(key);
         }
@@ -22,3 +24,4 @@ function solution(A) {
 }
 
 console.log(solution([9, 3, 9, 3, 9, 7, 9]));
+console.log(solution([1, 1]));
