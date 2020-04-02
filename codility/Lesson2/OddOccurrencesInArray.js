@@ -24,4 +24,4 @@ function solution(A) {
 }
 
 console.log(solution([9, 3, 9, 3, 9, 7, 9]));
-console.log(solution([1, 1]));
+console.log(solution([2, 2, 2, 2, 3, 3, 3]));
